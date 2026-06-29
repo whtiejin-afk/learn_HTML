@@ -1,0 +1,28 @@
+@import url("reset.css");
+
+img {
+  width: 100px;
+}
+
+h3 {
+  color: red;
+  background-color: beige;
+}
+
+
+#list_title {
+  color: blue;
+  border: solid 1px brown;
+  /* background-color: beige; */
+  background: 
+    linear-gradient(90deg,
+    rgba(42, 123, 155, 1) 0%, 
+    rgba(87, 199, 133, 1) 50%, 
+    rgba(237, 221, 83, 1) 100%);
+}
+
+.item {
+  color: blueviolet;
+}
+
+
