@@ -8,7 +8,56 @@
   <body>
     <!-- 폼연습 -->
     <div>
-      <h3>Form 영역</h3>
+      <h1>Form 영역</h1>
+      <h3>로그인</h3>
+      <form>
+        <span>ID :</span>
+        <input
+          type="text"
+          name="user-id"
+          value="idid"
+          required
+          placeholder="ID를 입력하세요"
+        />
+        <br />
+        <span>PASS :</span>
+        <input
+          type="password"
+          name="user-pass"
+          required
+          placeholder="pass를 입력하세요"
+        />
+        <div><button type="submit">로그인</button></div>
+
+        <h3>그외 입력 요소</h3>
+        <!-- 체크박스 -->
+        <input id="i_S" type="checkbox" name="hobby" value="s" />
+        <label for="i_S"> 축구 </label>
+        <input id="i_b" type="checkbox" name="hobby" value="b" />
+        <label for="i_b"> 농구 </label>
+        <input id="i_bb" type="checkbox" name="hobby" value="bb" />
+        <label for="i_bb"> 야구 </label>
+        <br />
+        <!-- 라디오 -->
+        <div>
+          <input id="i_R_S" type="radio" name="hobby2" value="s" checked />
+          <label for="i_R_S"></label>축구
+          <input id="i_R_B" type="radio" name="hobby2" value="b" />
+          <label for="id" ="i_R_B"></label>농구
+          <input id="i_R_BB" type="radio" name="hobby2" value="bb" />
+          <label for="id" ="i_R_BB"></label>야구
+        </div>
+        <br />
+        <h3>드롭다운</h3>
+        <!-- 드롭다운 -->
+        <label for="food">음식 선택하기</label>
+        <select name="s_food" id="food">
+          <option value="pizza">피자</option>
+          <option value="hamberger">햄버거</option>
+          <option value="pastar">파스타</option>
+        </select>
+        <br />
+      </form>
     </div>
   </body>
 </html>
